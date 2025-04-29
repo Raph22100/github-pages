@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Espace Enseignant - Démo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Espace Enseignant - École Directe (Démo)</h1>
+    <nav>
+      <ul>
+        <li onclick="showPage('dashboard')">🏠 Tableau de bord</li>
+        <li onclick="showPage('planning')">📅 Emploi du temps</li>
+        <li onclick="showPage('homework')">📘 Cahier de texte</li>
+        <li onclick="showPage('grades')">📝 Notes</li>
+        <li onclick="showPage('messages')">💬 Messagerie</li>
+        <li onclick="showPage('resources')">📁 Ressources</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="dashboard" class="page active">
+      <h2>Tableau de bord</h2>
+      <ul>
+        <li>📌 Prochain cours :
